@@ -1243,7 +1243,7 @@ RFB.prototype = {
 
         // Cursor will be server side until the server decides to honor
         // our request and send over the cursor image
-        this._display.disableLocalCursor();
+        // this._display.disableLocalCursor();
 
         this._updateConnectionState('connected');
         return true;
